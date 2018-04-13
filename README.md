@@ -1,4 +1,5 @@
 ## randid
+[![Build Status](https://travis-ci.org/damdo/randid.svg?branch=master)](https://travis-ci.org/damdo/randid)
 
 **generate** (crypto-secure) **random** (alphanumeric string) **ids** - in Go
 

@@ -8,6 +8,7 @@
 - **fast** :zap:
 - both fixed and arbitrary long generation methods
 - **tested** :white_check_mark:
+- **dependency-less**
 
 
 ### USAGE:
@@ -44,3 +45,6 @@ func foo(){
 ### CREDITS:
 Credits goes to https://github.com/moby/moby/blob/master/pkg/stringid <br>
 upon which this mini package is heavily based.
+
+### LICENSE:
+The MIT License (MIT) - see [`LICENSE.md`](https://github.com/damdo/randid/blob/master/LICENSE.md) for more details

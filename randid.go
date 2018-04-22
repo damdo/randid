@@ -10,6 +10,7 @@ import (
 
 // DefaultLen is the default id length
 var DefaultLen = 32
+var hardLimitLen = 1000000
 
 // ID generates an "defaultLen" long id
 func ID() string {
@@ -22,6 +23,10 @@ func SizedID(size int) string {
 }
 
 func generate(size int) string {
+	if size > hardLimitLen {
+		size = hardLimitLen
+	}
+
 	b := make([]byte, size)
 	r := rand.Reader
 

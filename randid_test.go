@@ -28,6 +28,14 @@ func TestHugeSizedID(t *testing.T) {
 	}
 }
 
+func TestMoreHugeSizedID(t *testing.T) {
+	id := SizedID(1000000)
+
+	if len(id) != 1000000 {
+		t.Fatalf("Id returned is incorrect: %s", id)
+	}
+}
+
 func TestChangeDefLenID(t *testing.T) {
 	DefaultLen = 12
 	id := ID()

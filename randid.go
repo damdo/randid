@@ -30,14 +30,12 @@ func generate(size int) string {
 	b := make([]byte, size)
 	r := rand.Reader
 
-	for {
-		if _, err := io.ReadFull(r, b); err != nil {
-			panic(err)
-		}
-
-		id := hex.EncodeToString(b)
-		return truncateID(id, size)
+	if _, err := io.ReadFull(r, b); err != nil {
+		panic(err)
 	}
+
+	id := hex.EncodeToString(b)
+	return truncateID(id, size)
 }
 
 func truncateID(id string, length int) string {

@@ -1,5 +1,5 @@
 ## randid
-[![GoDoc](http://godoc.org/github.com/damdo/randid?status.png)](http://godoc.org/github.com/damdo/randid) 
+[![GoDoc](http://godoc.org/github.com/damdo/randid?status.svg)](http://godoc.org/github.com/damdo/randid) 
 [![Build Status](https://travis-ci.org/damdo/randid.svg?branch=master)](https://travis-ci.org/damdo/randid)
 [![Coverage Status](https://coveralls.io/repos/github/damdo/randid/badge.svg?branch=master)](https://coveralls.io/github/damdo/randid?branch=master)
 
